@@ -4,7 +4,7 @@ import unicodedata
 # ==========================================
 # 1️⃣ LOAD RAW TEXT
 # ==========================================
-with open("law_raw.txt", "r", encoding="utf-8") as f:
+with open("law_normalized.txt", "r", encoding="utf-8") as f:
     text = f.read()
 
 text = unicodedata.normalize("NFKC", text)
