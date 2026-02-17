@@ -279,6 +279,7 @@ def main():
     print("  LAW PDF → JSON PIPELINE")
     print("=" * 50)
     PDF_INPUT = "law19.pdf"
+    OUTPUT_JSON = "output19.json"
     if not os.path.exists(PDF_INPUT):
         print(f"❌ PDF not found: {PDF_INPUT}")
         return
