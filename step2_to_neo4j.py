@@ -1,8 +1,3 @@
-"""
-STEP 2: Enhance JSONs and insert into Neo4j
-Run: python step2_to_neo4j.py
-"""
-
 import json, re, os, sys, pathlib, unicodedata
 from datetime import datetime
 from dotenv import load_dotenv
